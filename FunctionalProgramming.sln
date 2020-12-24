@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "FunctionalProgramming\ExtensionMethods.csproj", "{BBA577C6-E21D-4DDF-8616-70C8966A4D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProperties", "ArtProperties\AutoProperties.csproj", "{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBody", "ArtProperties\ExpressionBody.csproj", "{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
