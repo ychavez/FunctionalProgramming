@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "FunctionalProgramming\ExtensionMethods.csproj", "{BBA577C6-E21D-4DDF-8616-70C8966A4D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "FunctionalProgramming\ExtensionMethods.csproj", "{BBA577C6-E21D-4DDF-8616-70C8966A4D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBody", "ArtProperties\ExpressionBody.csproj", "{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionBody", "ArtProperties\ExpressionBody.csproj", "{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{12744221-91D0-48C0-9497-498CCF6660E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FBA8ABB-1182-4B31-9F54-D32E6ABD47CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12744221-91D0-48C0-9497-498CCF6660E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12744221-91D0-48C0-9497-498CCF6660E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12744221-91D0-48C0-9497-498CCF6660E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12744221-91D0-48C0-9497-498CCF6660E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
