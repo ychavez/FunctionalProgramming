@@ -13,7 +13,7 @@ namespace ExtensionMethods
     /// </summary>
     public static class DatetimeExtensions
     {
-        public static string ToDevideFormat(this DateTime dt) =>
+        public static string ToDeviceFormat(this DateTime dt) =>
             dt.Year >= 2000 ? dt.ToString("yyyyMMddhhmmss") : dt.ToString("yyyyMMddhhmmss").Substring(2);
 
     }

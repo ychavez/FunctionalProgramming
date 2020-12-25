@@ -12,13 +12,13 @@ namespace Extensions
         static void Main(string[] args)
         {
             DateTime dt1 = new DateTime(2020, 12, 12, 01, 02, 03);
-            var result = dt1.ToDevideFormat();
+            var result = dt1.ToDeviceFormat();
             Console.WriteLine(result);
 
             Console.ReadLine();
 
             DateTime dt2 = new DateTime(1999, 12, 12, 01, 02, 03);
-            var result2 = dt2.ToDevideFormat();
+            var result2 = dt2.ToDeviceFormat();
             Console.WriteLine(result2);
 
             Console.ReadLine();
