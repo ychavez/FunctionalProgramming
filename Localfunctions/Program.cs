@@ -7,10 +7,8 @@ namespace LocalFunctions
         public string GetFullInfo(string fullStr)
         {
             return GetFullName(fullStr).firstName + GetFullName(fullStr).lastName;
-            (string firstName, string lastName) GetFullName(string str)
-            {
-                return (str.Split()[0], str.Split()[1]);
-            }
+            (string firstName, string lastName) GetFullName(string str) =>
+                (str.Split()[0], str.Split()[1]);
         }
     }
     class Program
