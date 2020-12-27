@@ -18,10 +18,9 @@ namespace Inmutability.PopsicleInmutability
                 this.value = value;
             }
         }
-        public void Freeze()
-        {
+        public void Freeze() =>
             Frozen = true;
-        }
+
 
     }
     public class PopsicleClient

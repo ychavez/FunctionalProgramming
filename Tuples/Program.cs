@@ -8,20 +8,14 @@ namespace Tuples
             return (GetMainSystemState(), GetSubsystemState());
         }
 
-        private int GetSubsystemState()
-        {
-            return 0;
-        }
+        private int GetSubsystemState()=>0;
 
-        private int GetMainSystemState()
-        {
-            return 0;
-        }
 
-        private void Launch()
-        {
-            
-        }
+        private int GetMainSystemState() => 0;
+
+
+        private void Launch() { }
+     
     }
 
     public class Point {
